@@ -31,7 +31,7 @@ It's advisable to review these two projects beforehand as we delve into ensemble
 
 
 ## Data Description
-The CSV consists of around 2000 rows and 16 columns in the [dataset](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/input/data_regression.csv)
+The CSV consists of around 2000 rows and 16 columns in the [dataset](https://github.com/diegovillatoromx/ensemble_learning/blob/main/input/data_regression.csv)
 
 ### Features:
 - Year
