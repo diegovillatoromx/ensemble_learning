@@ -121,8 +121,7 @@ Before analysis, prepare data by loading and processing it:
     from ML_Pipeline.utils import read_data,inspection,null_values
     from ML_Pipeline.ml_model import prepare_model_smote,run_model
     from ML_Pipeline.evaluate_metrics import confusion_matrix,roc_curve
-    from ML_Pipeline.feature_imp import plot_feature_importances
-    from ML_Pipeline.plot_model import plot_model
+    from ML_Pipeline.lime import lime_explanation
     import matplotlib.pyplot as plt
     ```
 2. ##### Data loading
