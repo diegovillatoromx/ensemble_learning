@@ -131,13 +131,13 @@ Before analysis, prepare data by loading and processing it:
     df = read_data(datapath)
     df.head(5)
     ```
-    ![df_head](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/dfhead.png)
+    ![df_head](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/dfhead.png)
  
 3. #### Inspection and cleaning the data
     ```terminal
     x = inspection(df)
     ```
-    ![inspection](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/inspection.png)
+    ![inspection](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/inspection.png)
 4. #### Cleaning and Preprocessing:
    Clean data by handling missing values, normalization, etc.
     ```terminal
@@ -158,7 +158,7 @@ Perform analysis and modeling on prepared data:
    ```terminal
    model_rf,y_pred = run_model('random',X_train,X_test,y_train,y_test)
    ```
-   ![running_model](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/run_model.png)
+   ![running_model](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/run_model.png)
 
 
 2. #### Performance metrics
