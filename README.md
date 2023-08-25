@@ -156,7 +156,7 @@ Perform analysis and modeling on prepared data:
 
 1. #### Evaluation Metrics
    ```terminal
-   model_dectree,y_pred = run_model(X_train,X_test,y_train,y_test)
+   model_rf,y_pred = run_model('random',X_train,X_test,y_train,y_test)
    ```
    ![running_model](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/run_model.png)
 
