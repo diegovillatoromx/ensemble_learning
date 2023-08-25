@@ -188,40 +188,12 @@ Perform analysis and modeling on prepared data:
    ```
    ![running_model](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/lime_report_rf.jpg)
 
-# Contributing
-
-Encourage contributions to the Data Science project.
-
-## How to Contribute
-### Fork the Repository:
-Fork this repository to your GitHub account.
-
-### Clone Your Fork:
-Clone your fork to your local machine:
-```
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
-```
-### Create a Branch:
-Create a new branch to work on:
-```
-git checkout -b your-branch-name
-```
-### Make Changes:
-Make necessary changes to the code.
-
-### Testing and Feedback:
-Test changes and seek feedback from collaborators.
-
-### Submit a Pull Request:
-Send a pull request from your branch to the main repository.
 
 ## Contribution Guidelines
-1. Focus changes on specific improvements.
-2. Follow project's coding style.
-3. Provide detailed descriptions in pull requests.
+  1. Focus changes on specific improvements.
+  2. Follow project's coding style.
+  3. Provide detailed descriptions in pull requests.
 ## Reporting Issues
-Use "Issues" to report bugs or suggest improvements.
-
+  Use "Issues" to report bugs or suggest improvements.
 # Contact
 For questions or contact, [email](diegovillatormx@gmail.com) or [Twitter](https://twitter.com/diegovillatomx) .
