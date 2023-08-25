@@ -168,9 +168,12 @@ Perform analysis and modeling on prepared data:
    ![running_model](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/cof_matrix.png)
 
    ```terminal
-   roc_val = roc_curve(model_dectree,X_test,y_test)
+   import os
+   os.makedirs("output/ROC_curves", exist_ok=True)
+   roc_val = roc_curve(model_rf, X_test, y_test) # plot the roc curve
+   plt.savefig("output/ROC_curves/ROC_Curve_rf.png") # plot the featu
    ```
-   ![ROC](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/Log_ROC.png)
+   ![ROC](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/Log_ROC.png)
 
    ```terminal
    decision_tree_plot = plot_model(model_dectree,['not churn','churn'])
