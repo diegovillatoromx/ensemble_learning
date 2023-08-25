@@ -165,7 +165,7 @@ Perform analysis and modeling on prepared data:
    ```terminal
    conf_matrix = confusion_matrix(y_test,y_pred)
    ```
-   ![running_model](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/cof_matrix.png)
+   ![running_model](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/cof_matrix.png)
 
    ```terminal
    roc_val = roc_curve(model_dectree,X_test,y_test)
