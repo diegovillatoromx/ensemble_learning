@@ -176,17 +176,16 @@ Perform analysis and modeling on prepared data:
    ![ROC](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/Log_ROC.png)
 
    ```terminal
-   decision_tree_plot = plot_model(model_dectree,['not churn','churn'])
-   plt.savefig("output/"+"Decision_Tree_plot.png")
+   os.makedirs("output/models", exist_ok=True)
+   pickle.dump(model_rf, open('output/models/model_rf.pkl', 'wb'))
    ```
-   ![tree](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/Decision_Tree_plot.png)
-
+   
 3. #### Feature Importance
    ```terminal
-   fea_imp = plot_feature_importances(model_dectree)
-   plt.savefig("output/"+"Feature_Importance.png")
-   ```
-   ![running_model](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/images/Feature_Importance.png)
+   os.makedirs("output/LIME_reports", exist_ok=True)
+   lime_exp = lime_explanation(model_rf,X_train,X_test,['Not Churn','Churn'],1)
+   lime_exp.savefig('output/LIME_reports/lime_report_rf.jpg')   ```
+   ![running_model](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/lime_repor_rf.png)
 
 
 # Contributing
