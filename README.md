@@ -82,12 +82,10 @@ file in our case:
       then called inside the engine.py file.
 
 3. Output
-   – The output folder contains the best-fitted models that we trained
-for this data. These models can  be easily loaded and used for future use and
-the user need not have to train all the models from the beginning.
-Note: This model is built over a chunk of data. One can obtain the model for the
-entire data by running engine.py by taking the entire data to train the models.
-
+   – Output folder – The output folder contains three subfolders.
+     - LIME_reports - contains the LIME reports generated for all three algorithms.
+     - Models - contains the models generated for all three algorithms.
+     - ROC_curves - contains the ROC curves generated for all three algorithms.
 4. Tutorial - This is a reference folder. It contains the [ipython notebook tutorial](https://github.com/diegovillatoromx/logistic_regresion_model/blob/main/lib/logistic_regression.ipynb).
 
 
