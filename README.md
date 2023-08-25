@@ -173,7 +173,7 @@ Perform analysis and modeling on prepared data:
    roc_val = roc_curve(model_rf, X_test, y_test) # plot the roc curve
    plt.savefig("output/ROC_curves/ROC_Curve_rf.png") # plot the featu
    ```
-   ![ROC](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/Log_ROC.png)
+   ![ROC](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/ROC_Curve_rf.png)
 
    ```terminal
    os.makedirs("output/models", exist_ok=True)
@@ -185,7 +185,7 @@ Perform analysis and modeling on prepared data:
    os.makedirs("output/LIME_reports", exist_ok=True)
    lime_exp = lime_explanation(model_rf,X_train,X_test,['Not Churn','Churn'],1)
    lime_exp.savefig('output/LIME_reports/lime_report_rf.jpg')   ```
-   ![running_model](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/lime_repor_rf.png)
+   ![running_model](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/lime_report_rf.jpg)
 
 
 # Contributing
