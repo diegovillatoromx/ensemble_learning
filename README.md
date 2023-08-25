@@ -21,7 +21,7 @@ This graphical representation offers potential solutions based on given conditio
 
 Our case study focuses on a churn dataset, where "churned customers" are those ending relationships with their current company. XYZ, a service provider, offers a one-year subscription plan and wants to predict customer renewal.
 
-We've previously examined the functionality of the logistic regression model using this dataset in the initial project of this series: [Churn Analysis for Streaming App using Logistic Regression](https://github.com/diegovillatoromx/logistic_regresion_model)
+We've previously examined the functionality of the logistic regression model using this dataset in the initial project of this series: [Churn Analysis for Streaming App using Logistic Regression](https://github.com/diegovillatoromx/logistic_regresion_model).
 
 Additionally, we've implemented the decision tree algorithm in our second project: [Building a Customer Churn Prediction Model using Decision Trees](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model).
 It's advisable to review these two projects beforehand as we delve into ensemble techniques.
