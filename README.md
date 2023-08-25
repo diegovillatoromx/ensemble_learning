@@ -1,6 +1,6 @@
 # A Churn Prediction Model using Ensemble Learning
 
-Our case study focuses on a churn dataset, where "churned customers" are those ending relationships with their current company. XYZ, a service provider, offers a one-year subscription plan and wants to predict customer renewal.
+Our focus will be on a churn dataset, where "Churned Customers" are individuals who have chosen to terminate their association with their current company. XYZ operates as a service provider, offering customers a one-year subscription plan for their product. The company aims to predict whether customers will renew their subscriptions for the upcoming year.
 
 ## Table of Contents
 
@@ -21,7 +21,11 @@ This graphical representation offers potential solutions based on given conditio
 
 Our case study focuses on a churn dataset, where "churned customers" are those ending relationships with their current company. XYZ, a service provider, offers a one-year subscription plan and wants to predict customer renewal.
 
-Previously, we explored logistic regression on this dataset. It's recommended to review the [Build a Logistic Regression Model](https://github.com/diegovillatoromx/logistic_regresion_model) project. Now, we aim to apply the decision tree classifier to the same dataset.
+We've previously examined the functionality of the logistic regression model using this dataset in the initial project of this series: [Churn Analysis for Streaming App using Logistic Regression](https://github.com/diegovillatoromx/logistic_regresion_model)
+
+Additionally, we've implemented the decision tree algorithm in our second project: [Building a Customer Churn Prediction Model using Decision Trees](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model).
+It's advisable to review these two projects beforehand as we delve into ensemble techniques.
+
 ## Architecture
 
 ![Architecture Diagram](https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model/blob/main/architecture_diagram.png)
