@@ -33,25 +33,25 @@ It's advisable to review these two projects beforehand as we delve into ensemble
 ## Data Description
 The CSV consists of around 2000 rows and 16 columns in the [dataset](https://github.com/diegovillatoromx/ensemble_learning/blob/main/input/data_regression.csv)
 
-### Features:
-- Year
-- Customer_id - unique id
-- Phone_no - customer phone no
-- Gender -Male/Female
-- Age
-- No of days subscribed - the number of days since the subscription
-- Multi-screen - does the customer have a single/ multiple screen subscription
-- Mail subscription - customer receive mails or not
-- Weekly mins watched - number of minutes watched weekly
-- Minimum daily mins - minimum minutes watched
-- Maximum daily mins - maximum minutes watched
-- Weekly nights max mins - number of minutes watched at night time
-- Videos watched - total number of videos watched
-- Maximum_days_inactive - days since inactive
-- Customer support calls - number of customer support calls
-- Churn
-  - 0 No
-  - 1 Yes 
+#### Features:
+  - Year
+  - Customer_id - unique id
+  - Phone_no - customer phone no
+  - Gender -Male/Female
+  - Age
+  - No of days subscribed - the number of days since the subscription
+  - Multi-screen - does the customer have a single/ multiple screen subscription
+  - Mail subscription - customer receive mails or not
+  - Weekly mins watched - number of minutes watched weekly
+  - Minimum daily mins - minimum minutes watched
+  - Maximum daily mins - maximum minutes watched
+  - Weekly nights max mins - number of minutes watched at night time
+  - Videos watched - total number of videos watched
+  - Maximum_days_inactive - days since inactive
+  - Customer support calls - number of customer support calls
+  - Churn
+      - 0 No
+      - 1 Yes 
 
 ## Modular_Code_Overview
 
@@ -61,18 +61,17 @@ The CSV consists of around 2000 rows and 16 columns in the [dataset](https://git
 
   ML_pipeline
     |_evaluate_metrics.py
-    |_feature.py
+    |_lime.py
     |_ml_model.py
-    |_plot_model.py
     |_utils.py
 
   Tutorial
     |_decision_tree.ipynb
 
   output
-    |_Decision_Tree_plot.png
-    |_Feature_Importance.png
-    |_model.pkl
+    |_LIME_reports folder
+    |_models folder
+    |_ROC_curves folder
 ```
 1. Input - It contains all the data that we have for analysis. There is one csv
 file in our case:
