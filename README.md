@@ -184,9 +184,9 @@ Perform analysis and modeling on prepared data:
    ```terminal
    os.makedirs("output/LIME_reports", exist_ok=True)
    lime_exp = lime_explanation(model_rf,X_train,X_test,['Not Churn','Churn'],1)
-   lime_exp.savefig('output/LIME_reports/lime_report_rf.jpg')   ```
+   lime_exp.savefig('output/LIME_reports/lime_report_rf.jpg')
+   ```
    ![running_model](https://github.com/diegovillatoromx/ensemble_learning/blob/main/images/lime_report_rf.jpg)
-
 
 # Contributing
 
