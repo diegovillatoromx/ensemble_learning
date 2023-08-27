@@ -19,7 +19,7 @@ A Decision Tree is a supervised learning method suitable for both classification
 
 This graphical representation offers potential solutions based on given conditions. Beginning from a root node, it grows branches and forms a tree structure. The tree poses questions and branches further based on Yes/No answers.
 
-Our case study focuses on a churn dataset, where "churned customers" are those ending relationships with their current company. XYZ, a service provider, offers a one-year subscription plan and wants to predict customer renewal.
+Our case study focuses on a churn dataset, where "churned customers" are those ending relationships with their current company. XYZ, a service provider, offers a one-year subscription plan and wants to predict customer  renewal.
 
 We've previously examined the functionality of the logistic regression model using this dataset in the initial project of this series: [Churn Analysis for Streaming App using Logistic Regression](https://github.com/diegovillatoromx/logistic_regresion_model).
 
