@@ -196,4 +196,4 @@ Perform analysis and modeling on prepared data:
 ## Reporting Issues
   Use "Issues" to report bugs or suggest improvements.
 # Contact
-For questions or contact, [email](diegovillatormx@gmail.com) or [Twitter](https://twitter.com/diegovillatomx) .
+For questions or contact, [Mail](diegovillatormx@gmail.com) or [Twitter](https://twitter.com/diegovillatomx) .
