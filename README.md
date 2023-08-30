@@ -86,7 +86,7 @@ file in our case:
      - LIME_reports - contains the LIME reports generated for all three algorithms.
      - Models - contains the models generated for all three algorithms.
      - ROC_curves - contains the ROC curves generated for all three algorithms.
-4. Tutorial - This is a reference folder. It contains the [ipython notebook tutorial].
+4. Tutorial - This is a reference folder. It contains the notebook tutorial.
 
 ## Installation
 
