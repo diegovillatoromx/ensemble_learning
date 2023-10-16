@@ -3,7 +3,7 @@
 Our focus will be on a churn dataset, where "Churned Customers" are individuals who have chosen to terminate their  association with their current company. XYZ operates as a service provider, offering customers a one-year subscription plan for their product. The company aims to predict whether customers will renew their subscriptions for the upcoming year.
  
 ## Table of Contents
-
+ 
 - [Description](#description)
 - [Architecture](#architecture)
 - [Features](#features)
